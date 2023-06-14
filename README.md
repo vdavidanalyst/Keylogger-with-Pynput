@@ -52,7 +52,7 @@ The keylogger will start capturing keyboard inputs. The captured keystrokes will
 # Conclusion:
 - The Keylogger with Encryption project showcases the implementation of a keylogger in Python using the Pynput library. By incorporating encryption and decryption functionality, it ensures that the captured keystrokes remain secure and protected from unauthorized access. This project serves as a foundation for understanding keylogging techniques, encryption algorithms, and basic file logging.
 
-- With the modifications, the keylogger_extended will send an email with the captured keystrokes when the Enter key is pressed. The keystrokes will also be logged into the specified log file (C:\ProgramData\mylog.txt).
+- With the modifications, the [keylogger_extended](https://github.com/vdavidanalyst/Keylogger-with-Pynput/blob/main/keylogger_extended.ipynb) will send an email with the captured keystrokes when the Enter key is pressed. The keystrokes will also be logged into the specified log file (C:\ProgramData\mylog.txt).
 
 Please note that using a Gmail account for sending emails may require enabling access for less secure apps or generating an app password. Ensure that you have the necessary permissions and follow the email service provider's guidelines to successfully send emails from your script.
 
