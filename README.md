@@ -2,6 +2,23 @@
 # Project Overview:
 The Keylogger with Encryption project demonstrates how to create a keylogger using the Pynput library in Python. It captures keyboard inputs, encrypts them using the Fernet encryption algorithm, and logs them into a file. The encrypted keystrokes are also decrypted and displayed in the console.
 
+# Aims:
+- Develop a keylogger using the Pynput library in Python.
+- Capture and log keyboard inputs, including alphanumeric characters, space, enter, and tab keys.
+- Handle special characters and log them appropriately.
+- Encrypt the captured keystrokes using the Fernet encryption algorithm.
+- Implement email capabilities to send the captured keystrokes to a specified email address.
+- Demonstrate the functionality of a basic keylogger with email integration.
+
+# Objectives:
+- Acquire proficiency in using the Pynput library for keyboard input monitoring.
+- Understand and implement logging functionality to store the captured keystrokes in a log file.
+- Handle different types of keys, including alphanumeric characters, space, enter, and tab keys.
+- Encrypt the captured keystrokes to ensure data privacy and security.Configure email settings to send the encrypted keystrokes as an email.
+- Ensure proper documentation and code organization for the project.
+- Practice responsible use of keylogging techniques and emphasize the importance of obtaining proper authorization when implementing such functionality.
+- Showcase the ability to combine multiple libraries and technologies to create a functional and secure keylogger with email capabilities.
+
 # Technologies Used:
   Python
   Pynput library
