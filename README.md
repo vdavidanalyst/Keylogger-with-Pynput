@@ -54,6 +54,9 @@ The keylogger will start capturing keyboard inputs. The captured keystrokes will
 
 - With the modifications, the [keylogger_extended](https://github.com/vdavidanalyst/Keylogger-with-Pynput/blob/main/keylogger_extended.ipynb) will send an email with the captured keystrokes when the Enter key is pressed. The keystrokes will also be logged into the specified log file (C:\ProgramData\mylog.txt).
 
-Please note that using a Gmail account for sending emails may require enabling access for less secure apps or generating an app password. Ensure that you have the necessary permissions and follow the email service provider's guidelines to successfully send emails from your script.
+  Please note that using a Gmail account for sending emails may require enabling access for less secure apps or generating an app password. Ensure that you have the necessary permissions and follow the email service provider's guidelines to successfully send emails from your script.
 
-Feel free to adjust the email subject, body, or add more content to the email as needed. Remember to handle any potential security considerations and use this functionality responsibly.
+  Regarding persistence and autostart, the implementation may vary depending on the operating system you're using. Here are some general guidelines:
+Windows: You can create a shortcut to the Python script and place it in the "Startup" folder. This will make the script run automatically when the user logs in. The "Startup" folder can be accessed by pressing Win+R, entering shell:startup, and pressing Enter.
+
+  Feel free to adjust the email subject, body, or add more content to the email as needed. Remember to handle any potential security considerations and use this functionality responsibly.
